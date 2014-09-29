@@ -2,7 +2,7 @@ Reverie Child Theme Package
 =============
 heavily modified by Cassandra Marshall and Daydream Project
 
-WordPress Child theme based on the Reverie bare-bones Child Theme. This theme features Custom Post Types, Custom Field Types, (using the Types plug-in), editable Featured Images, Custom Taxonomy, and Tags. These pages complete the Reverie theme.
+WordPress Theme based on the Reverie bare-bones Child Theme. This theme features Custom Post Types, Custom Field Types, (using the Types plug-in), editable Featured Images, Custom Taxonomy, and Tags. These pages complete the Reverie theme.
 
 A child theme package for Reverie.
 

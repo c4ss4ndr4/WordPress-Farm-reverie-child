@@ -1,0 +1,154 @@
+@import url("../../reverie-master/css/style.css");
+/* Theme Name: Rancho Piccolo Reverie 5 Child
+Description: Child theme for the Reverie Theme. Reverie is based off of Foundation. Rancho Piccolo Reverie Child inherits all functionality of Foundation 5, as well as Foundation 3 for IE8 support. This theme is dependent on Reverie to function. Do not delete the Reverie Theme.
+
+Theme pages include custom post types for recipes, podcasts and newsletters. 
+
+Author: Cassandra Marshall
+Template: reverie-master
+ */
+
+
+body{
+	font-family: Georgia, Times, 'Times New Roman', DroidSerif, serif;
+	background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8{
+	 font-family: 'Antic Didone', serif;
+	 font-weight:300;
+}
+
+
+a{
+	color: #444444;
+}
+
+a:hover, .has-tip a:hover{
+	color: #7F120F;
+}
+
+#featured{
+	border: none;
+	margin: 0;	
+	padding: 15px;
+	background-color:transparent;
+}
+
+#content{
+	background-color: #fff;	
+	padding: 2%;
+	border: none;
+	margin: 0;	
+}
+
+.post-roll{
+	padding: 10px 10px 0 10px;	
+}
+
+/* top-bar */
+/* Should figure out SCSS to make this easier to configure */
+header, .contain-to-grid{
+	color: #fff;
+	background-color: #fff;	
+	
+}
+nav, a.nav{
+	color: #000000;
+	font-family: 'Cutive Mono', ;
+	background-color: #fff;	
+}
+
+.top-bar .name h1 a, .top-bar {
+	color: #000;	
+	background: none repeat scroll 0 0 #ffffff;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #fff;
+	
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	color: #000;	
+	background-color: #fff;
+}
+
+.toggle-topbar, .menu-icon{
+	color: #000;
+	background-color: #fff;
+}
+
+.top-bar a, li.toggle-topbar a, li.menu-icon a {
+	color: #000;
+	background-color: #fff;
+}
+
+.menu-icon, .toggle-topbar a, .menu-icon a{
+	color: #000;	
+	background-color: #fff;
+}
+
+*.top-bar, *.top-bar-section, .top-bar.expanded .title-area, .toggle-topbar a span  {
+	background-color: #fff;	
+	box-shadow: none;
+	
+}
+.top-bar-section{
+	font-size:14px;
+	font-weight:bold;
+	font-stretch:ultra-expanded;
+	letter-spacing: .1em;
+	text-transform:uppercase;
+	margin-left: 20px;
+	background-color: #ffffff;	
+	color: #000000;
+	
+}
+
+.top-bar-section li a:not(.button){
+	padding: 0 16px;	
+	line-height: 40px;
+	border-bottom:none;
+	list-style-type: none;
+	background-color: #ffffff;	
+	color: #000000;
+}
+
+.top-bar-section ul li.active > a{
+	border-bottom: 3px solid rgb(34, 61, 118);	
+	background-color: #ffffff;	
+	color: #000000;
+}
+
+.top-bar-section ul {
+	 background: none repeat scroll 0 0 #ffffff;
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	border: none;	
+	background-color: #ffffff;	
+	color: #000000;
+}
+
+.top-bar-section .divider, .top-bar-section .divider ul, .top-bar-section ul.divider, .top-bar-section .separator ul{
+	border-style: none;
+	border-width: 0;
+	background-color: #ffffff;	
+	color: #000000;
+}
+
+.certification{
+	padding: 2%;	
+	
+}
+
+.cert-text{
+	text-align:justify;
+}
+
+.cert-image{
+	text-align:center;	
+}
+
+
